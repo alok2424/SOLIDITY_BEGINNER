@@ -7,7 +7,7 @@ contract demo {
     struct Task{
     uint id;
     string content;
-    bool completed;
+    bool completed; 
     }
     
     mapping(uint=>Task) tasks;
